@@ -1,21 +1,14 @@
-# #the if,else,elif
+marks=int(input("Enter your marks (0-100):"))
 
-# temperature=40
-# if(temperature>30):
-#     print("it's hot")
-# elif(temperature>15):
-#     print("it's warm")
-# else:
-#     print("it's cold")
-
-
-# if(temperature>0):
-#     print('true')
-
-age=25
-has_id=25
-
-if age>=18 and has_id:
-    print("You can vote")
+if marks>=90:
+    print("Grade:A+")
+elif marks>=80:
+    print("Grade:A")
+elif marks >=70:
+    print("Grade B")
+elif marks>=60:
+    print("Grade:C")
+elif(marks>=50):
+    print("Grade:D")
 else:
-    print("You can not vote")
+    print("Grade: F Try your bset for nex time")
